@@ -1,0 +1,38 @@
+.products_search label{
+	font-family: inherit;
+    font-size: 14px;
+    padding-left: 4px;
+}
+#dod_choose_prod{
+	width: 30%;
+}
+
+.products_search{
+	width: 80%;
+    background: #fff;
+    padding: 10px 20px;
+}
+.products_search td > button{
+    cursor: pointer;
+}
+.search_results{
+	width: 25%;
+    position: absolute;
+    background: #f1f1f1;
+}
+
+.search_results ul{
+	    background: #f1f1f1;
+    padding: 4px 5px;
+}
+
+.choosed_products ul li{
+    background: lightgray;
+    width: 17%;
+    padding: 1px 5px;
+    font-size: 12px;
+}
+
+#errmsg{
+    text-align: center;
+}

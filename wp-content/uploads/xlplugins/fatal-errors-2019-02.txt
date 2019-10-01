@@ -1,0 +1,14 @@
+
+Feb 13, 2019 08.07.29: Uncaught Error: Class 'wpb_widget' not found in C:\xampp\htdocs\watch\wp-includes\class-wp-widget-factory.php:100
+Stack trace:
+#0 C:\xampp\htdocs\watch\wp-includes\widgets.php(115): WP_Widget_Factory->register('wpb_widget')
+#1 C:\xampp\htdocs\watch\wp-content\themes\watch\functions.php(1103): register_widget('wpb_widget')
+#2 C:\xampp\htdocs\watch\wp-includes\class-wp-hook.php(286): wpb_load_widget('')
+#3 C:\xampp\htdocs\watch\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\watch\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\watch\wp-includes\widgets.php(1661): do_action('widgets_init')
+#6 C:\xampp\htdocs\watch\wp-includes\class-wp-hook.php(286): wp_widgets_init('')
+#7 C:\xampp\htdocs\watch\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\watch\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\watch\wp-settings.php(467): do_action('init')
+#10 C:\xampp\htdocs\watch\wp-config.p
